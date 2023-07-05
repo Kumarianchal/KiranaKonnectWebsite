@@ -1,0 +1,42 @@
+body{
+    background-color: #d2fce2;
+}
+h1{
+    color:#054d23;
+    margin-bottom: 40px;
+    margin-left: 1.66%;
+    width: 40%;
+    border-bottom: 3px solid #f8c076;
+    padding-bottom: 20px;
+}
+
+label{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Source Sans Pro;
+    color: rgb(126, 72, 3);
+    text-shadow: sandybrown;
+}
+input:checked {
+    margin-left: 50px;
+    border: 20px solid rgb(255, 0, 149);
+}
+h1:first-letter{
+    font-size: 100px;
+    color:rgb(6, 26, 1);
+
+}
+h1:hover{
+    color:teal;
+}
+div{
+    margin-top:15px ;
+    margin-left: 1.66%;
+}
+#submit{
+    align-items: center;
+    size: 20pt;
+}
+
+
+  

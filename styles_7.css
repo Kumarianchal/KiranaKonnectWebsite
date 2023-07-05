@@ -1,0 +1,171 @@
+html{
+    height:100%;
+    
+}
+
+body, html{
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbRhbylmuzxtbkkHqy1c8hyK_kByN5jdQyug&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#heading{
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 1.66%;
+    width: 40%;
+    
+    padding-bottom:20px;
+    color: rgb(54, 31, 1);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtzWrM8YoDCQkVMSkpB1xN4LSr3zkj5Joi9Q&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.address{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+    margin: 30px;
+    margin-left: 20%;
+    margin-top: 22px;
+    width: 600px;
+    padding-bottom:20px;
+    color: rgb(5, 194, 5);
+}
+.quotes{
+    margin:30px;
+    margin-left: 1.66%;
+    
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(15, 85, 102);
+
+}
+#highlight{
+    
+    font-size: 25px;
+    margin:30px;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(233, 47, 47);
+}
+#dropdownMenuLink{
+    font-size: 20px;
+    text-align: center;
+    background-color: darkslategrey;
+    margin-left: 40%;
+
+}
+#rice, #pulses{
+    margin-top: 70px;
+}
+section{
+    margin-top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+.form-check{
+    float: right;
+    color: red;
+    margin-top: 30px;
+    font-family: 'Source Code Pro', monospace;
+    margin-right: 35%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    
+}
+.price{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+.items{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    height: 10%;
+    margin-top: 800px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+#item1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMicPuEEyj9uCqY3sZ_w2AmZjZsHzvfMSKQ&usqp=CAU");
+    color: rgb(6, 153, 80);
+}
+
+.tag{
+    font-size: 35px;
+    color: rgb(1, 16, 61);
+    font-family: 'Dancing Script', cursive;
+    margin: 2em;
+    margin-top: 3em;
+    margin-left: 6em;
+}
+.name{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(1, 18, 34);
+    
+}
+#pulses{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WmiDfoMJMM70aamKKXCuYA0HsJqriHMhug&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#rice{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QAdPUM0vUrida5sRbUMdacgulyb2DfuaVw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#spices{
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YCaUNRjc7pCsq9pBDRRr0ydz82LoMZ9XzA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:100% 20%;
+    background-color: rgb(248, 248, 179);
+}
+#dry_fruits{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTbdlZwUyXuZQFWL3uFrJ3SvzDavVJ_pc9qa9oxlvycOT49K7vKDShqOasDZbr03u2io&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:20% 100%;
+    background-position: right;
+    background-color: rgb(253, 181, 168);
+}
+#oil{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRa5wj-BsRH-Y1CARTpr_MLFPOSqO6VXOXIQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+#item2{
+    color: white;
+}
+#item5{
+    color: rgb(119, 19, 2);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5M3HKRS_F8-f6MuS0fWyuJH-4yzQW298Dow&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a button{
+    margin-top: 40px;
+    margin-left: 50%;
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(25, 133, 3);
+}
+

@@ -1,0 +1,47 @@
+img{
+    width:600px;
+    height: 300px;
+    float:left;
+    margin: 30px;
+    
+    
+}
+#heading{
+    margin-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 1.66%;
+    width: 30%;
+    border-bottom: 3px solid #f1f1f1;
+    padding-bottom:20px;
+    color: rgb(54, 31, 1);
+}
+.shop{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px;
+    width: 600px;
+    margin-bottom: 0px;
+    color:rgb(122, 91, 3);
+}
+div{
+    float:left;
+}
+.ll{
+    margin-right: 12%;
+}
+.address{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+    margin: 30px;
+    margin-top: 15px;
+    width: 600px;
+    padding-bottom:20px;
+    color: rgb(250, 145, 25);
+}

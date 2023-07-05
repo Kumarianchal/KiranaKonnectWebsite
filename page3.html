@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="styles_3.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Sign up</h1>
+        <br>
+        
+        <div>
+            <label  for="firstname">First Name:</label>
+            <input type="text" id="firstname" required placeholder="John">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" required placeholder="Smith">
+        </div>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="others">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required placeholder="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" pattern=".{5,10}" title="5 to 10 characters required" required>
+        </div>
+        <br>
+        <div>
+            <label>
+                DOB:
+            <select name="Month">
+                <option value="Month">Month</option>
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="March">March</option>
+            </select>
+            <select name="Day">
+                <option value="Day">Day</option>
+                <option value="Mon">Mon</option>
+                <option value="Tues">Tues</option>
+                <option value="Wed">Wed</option>
+            </select>
+            <select name="Year">
+                <option value="Year">Year</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+            </label>
+            </div>
+            <br>
+        <div>
+            <label  for="House number">House number:</label>
+            <input type="text" id="House number" required placeholder="3214">
+            <label for="Road number">Road number:</label>
+            <input type="text" id="Road number" required placeholder="231">
+        </div>
+        
+        <br>
+        <div>
+            <label  for="Locality">Locality:</label>
+            <input type="text" id="Locality" required placeholder="Ring road">
+            <label for="City">City:</label>
+            <input type="text" id="City" required placeholder="Kolkata">
+        
+        </div>
+        <br>
+        <div>
+            <label for="Contact number">Contact number:</label>
+            <input type="number" id="Contact number" required placeholder="+91 0000000000">
+        </div>
+        
+        <br>
+        <div>
+            <label>I agree to the terms and conditions.
+                <input type="checkbox" namer="agree" checked>
+            </label>
+            <br>
+            <a href="page1.html">
+                <input id="submit" type="submit">
+            </a>
+        </div>
+        
+        
+    </body>
+</html>
